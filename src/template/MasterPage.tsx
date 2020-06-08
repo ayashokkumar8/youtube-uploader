@@ -9,7 +9,7 @@ import Drawer from "@material-ui/core/Drawer";
 import HeaderContent from "template/HeaderContent";
 import BodyContent from "template/BodyContent";
 import { useLocation } from "react-router-dom";
-//import { getBreads } from "routes";
+import { getBreads } from "routes";
 
 const StyledMain = styled.div`
   flex: 0 0 100%;
@@ -58,12 +58,12 @@ const MasterPage = ({ children, drawer = true, header = true }: Props) => {
         <meta property="og:title" content="Mercitalia Logistics" />
         <meta
           property="og:image"
-          content="https://www.mercitaliarail.it:443null"
+          content=""
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.mercitaliarail.it/content/mercitalia_rail/it.html"
+          content=""
         />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       </Helmet>

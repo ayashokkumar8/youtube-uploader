@@ -1,0 +1,42 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form {
+    width: 357.5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    margin-bottom: 60px;
+}
+
+.input {
+    width: 24rem;
+    margin-bottom: 8px;
+}
+.forgot {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.inline {
+    display: inline;
+}
+.errorField{
+    color: #CC0000;
+    margin-top: 5px;
+}
+.submitButton {
+  margin-top: 15px;
+  @media (max-width: 666.95px){
+    width: 24rem;
+}
+}

@@ -8,7 +8,7 @@ import {Typography} from "components/text/Typography";
 import Breadcrumbs, {BreadcrumbsProps} from "@material-ui/core/Breadcrumbs";
 import { useLocation } from "react-router-dom";
 import { useTheme } from "@material-ui/core/styles";
-//import { getBreads } from "routes";
+import { getBreads } from "routes";
 
 const Logo = styled.img`
   flex-grow: 1;
